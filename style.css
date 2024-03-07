@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     width: 30%;
     height: 100%;
-    background-image: url(/img/halle-west.jpg);
+    background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: 150%;
     background-attachment:local;
     justify-content: space-between;
