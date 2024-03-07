@@ -13,6 +13,13 @@ body {
     font-weight: bold;
 }
 
+a {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+
 .container1 {
     display: flex;
     flex-direction: column;
