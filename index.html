@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="logo">
+            <h1>Lone Hobbyist</h1>
+        </div>
+        <div class="credit"><p>Photo by Halie West on Unsplash</p></div>
+    </div>
+    <div class="container2">
+        <div class="block1">
+            <h2 class="block1Txt">
+                This is not a real online service!
+                You know you need something like this to help
+                you realize your deepest dreams.<br>
+                Sign up <em>now</em> to get started.<br><br>
+                You <em>know</em> you want to.
+
+            </h2>
+        </div>
+        <div class="block2">
+            <h2 class="block2Txt">Let's do this!</h2>
+                <form method="post" id="form">
+                    <div class="columns">
+                        <div class="column1">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" placeholder="John" required>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" placeholder="johndoe@gmail.com" required>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" value="password" placeholder="pass123" required>
+                        </div>
+                        <div class="column2">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" placeholder="Doe" required>
+                            <label for="phoneNumbter">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNumber" placeholder="123-456-7891" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <label for="password">CONFIRM PASSWORD</label>
+                            <input type="password" name="password" id="passwordConfirmed" value="passwordConfirmed" placeholder="pass123" required>
+                        </div>
+                    </div>
+                </form>
+            
+        </div> 
+        <div class="block3">
+            <button form="form">Create Account</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
